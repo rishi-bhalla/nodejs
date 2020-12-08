@@ -1,0 +1,42 @@
+npm init
+npm update
+
+npm install express --save
+npm install moment --save
+npm install jasmine-node --save-dev
+npm install json-server
+npm install nodemon -g
+npm install express-generator -g
+npm install chalk
+npm install validator
+npm install yargs
+npm install postman-request
+npm install request
+npm install handlebars
+npm install hbs		 integrate handlebars with express
+npm install bcryptjs
+npm install multer
+npm install sharp
+npm install --save @sendgrid/mail
+npm install env-cmd --save-dev
+npm install jest
+npm install supertest --save-dev
+npm install bad-words
+npm install moment
+npm install ws
+
+nodemon app.js -e js,hbs
+
+
+command to create an application structutre: express myapp
+
+nodemon app.js
+
+
+html files can be changed without restarting the server but js files cannot
+
+json-generator.com //for dummy json for testing purpose
+
+arrow functions do not bind themselves to this value. Infact they can access the context in which they are created. This makes them poor candidates for methods and are good for almost everything else.
+
+in case of synchronous calls inside functions, functions can return values and this returned value will be available to the caller. In case the function contains an asynchronous call, the return value would be always undefined because node processes the callbacks after the callstack is empty. Hence in this case, the return value would be undefined and we use the concept of callbacks in case of asynchronous calls.
